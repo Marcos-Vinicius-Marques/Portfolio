@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #CAD2C5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-color: #171e22;
+}
+main .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 35px;
+}
+.containerSection {
+    position: absolute;
+    max-width: 1050px;
+    width: 1050px;
+}
+.containerSection section {
+    background-color: #2F3E46;
+    width: 100%;
+    padding: 50px 10px 35px 10px;
+}
+.containerSection section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+
+
+
+
+
+.sectionFirst .areaAbout {
+    width: 700px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 4px;
+    line-height: 30px;
+    border: 1px solid #71746f;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+
+.sectionSecond .areaSkills {
+    background-color: green;
+    width: 600px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+
