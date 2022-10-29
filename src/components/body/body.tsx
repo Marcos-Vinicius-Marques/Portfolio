@@ -1,11 +1,18 @@
 import styles from './stylesbody.module.css'
-import { motion } from 'framer-motion'
-/* import Carousel from 'react-elastic-carousel' */
+import { SwiperSlide } from 'swiper/react'
 
 import { TransitionSquare } from '../transition-square/transition-square' 
 import { TransitionRectangle } from '../transition-rectangle/transition-rectangle'
+import {  Slider } from '../slider/slider'
+
 
 export const Body = () => {
+    const settings = {
+        spaceBetween: 50,
+        slidesPerview: 3,
+    }
+
+
     return (
         <>
             <main>      
@@ -30,8 +37,8 @@ export const Body = () => {
                         </section>
                         <section className={styles.sectionSecond}>
                             <h1>Habilidades</h1>
-                            <div className={styles.areaSkills}>
-                                
+                            <div className={styles.swiperArea}>
+                                <Slider />
                             </div>
                         </section>
                     </div>

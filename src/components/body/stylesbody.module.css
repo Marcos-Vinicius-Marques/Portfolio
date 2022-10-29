@@ -57,9 +57,63 @@ h1 {
 
 .sectionSecond .areaSkills {
     background-color: green;
-    width: 600px;
+    width: 460px;
     height: 200px;
     margin-top: 40px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel {
+    display: flex;
+}
+.carousel .setLeft, .carousel .setRight {
+    background-color: royalblue;
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.carousel .setLeft img{
+    width: 40px;
+    height: 40px;
+    rotate: 180deg;
+    cursor: pointer;
+}
+.carousel .setRight img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
 
+.areaSkills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 45px;
+}
+.imgSkills {
+    width: 100px;
+    height: 106px;
+    background-color: yellow;
+}
+
+.htmlImg {
+    width: 100px;
+    margin-top: -15px;
+    margin-left: -15px;
+    
+}
+
+
+.swiperArea {
+    margin-top: 75px;
+    width: 650px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
