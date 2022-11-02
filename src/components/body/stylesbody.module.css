@@ -23,13 +23,12 @@ main .container {
 .containerSection section {
     background-color: #2F3E46;
     width: 100%;
-    padding: 50px 10px 35px 10px;
-}
-.containerSection section {
-
+    padding: 50px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 25px 0px;
+    border-radius: 60px;
 }
 
 
@@ -42,7 +41,7 @@ h1 {
 
 
 
-.sectionFirst .areaAbout {
+section p {
     width: 700px;
     margin-top: 40px;
     font-size: 20px;
@@ -116,4 +115,46 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+
+
+
+
+.projectsArea {
+    margin-bottom: 55px;
+}
+.linkArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.githubBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CAD2C5;
+    width: 46px;
+    height: 46px;
+    margin: 0px 10px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+.github {
+    width: 30px;
+    height: 30px;
+}
+.githubBackground:hover {
+    background: linear-gradient(180deg, #CAD2C5, #CAD2C5, #8c9189, #CAD2C5, #CAD2C5);  
+     background-size: 100% 300%;
+     animation: degrade-animado 1s linear infinite ;
+ }
+ @keyframes degrade-animado {
+     0% {
+         background-position-y: 0%;
+     }
+     100% {
+         background-position-y: 100%;
+     }
 }

@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 import { Header } from './components/header/header'
 import { Body } from './components/body/body' 
-
+import { Footer } from './footer/footer' 
 import { useState, useEffect } from "react"
 
 
@@ -11,9 +11,7 @@ const App = () => {
     <>
       <Header />
       <Body />
-      <footer style={{height:'400px', backgroundColor:"#2f3e46",}}>
-        ...
-      </footer>
+      <Footer />
     </>
   )
 }

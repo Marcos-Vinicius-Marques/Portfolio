@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #CAD2C5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+footer {
+    background: linear-gradient(to top, #101518, #242f35);
+    height: 385px;
+    padding: 50px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h1 {
+    font-size: 36px;
+}
+
+.contactArea {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactArea .contact {
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.cartaBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CAD2C5;
+    width: 46px;
+    height: 46px;
+    margin: 0px 10px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.carta {
+    width: 30px;
+    height: 30px;
+}
+
+.cartaBackground:hover {
+    width: 50px;
+    height: 50px;
+    margin: 0px 8px;
+}
+
+.cartaBackground:hover .carta {
+    width: 34px;
+    height: 34px;
+}
+
+.cartaBackground:hover {
+    background: linear-gradient(180deg, #CAD2C5, #CAD2C5, #8c9189, #CAD2C5, #CAD2C5);
+    background-size: 100% 300%;
+    animation: degrade-animado 1s linear infinite;
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-y: 0%;
+    }
+
+    100% {
+        background-position-y: 100%;
+    }
+}
+
+
+.contactArea .contact .email {
+    width: 80px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.fontFooter {
+    font-size: 18px;
+    word-spacing: 4px;
+}
+
+
+
+
+
+.divider {
+    height: 1px;
+    width: 580px;
+    border-radius: 1px;
+    background-color: #CAD2C5;
+    margin-top: 15px ;
+}
+
+
+
+
+
+.whatsappBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CAD2C5;
+    width: 46px;
+    height: 46px;
+    margin: 0px 10px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.whatsapp {
+    width: 30px;
+    height: 30px;
+}
+
+.whatsappBackground:hover {
+    width: 50px;
+    height: 50px;
+    margin: 0px 8px;
+}
+
+.whatsappBackground:hover .whatsapp {
+    width: 34px;
+    height: 34px;
+}
+
+.whatsappBackground:hover {
+    background: linear-gradient(180deg, #60f006, #60f006, #347c08, #60f006, #60f006);
+    background-size: 100% 300%;
+    animation: degrade-animado 1s linear infinite;
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-y: 0%;
+    }
+
+    100% {
+        background-position-y: 100%;
+    }
+}
+
+.contactArea .contact .whatsappText {
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.contactNetwork {
+    display: flex;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.linkedinBackground, .githubBackground, .instagramBackground, .facebookBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CAD2C5;
+    width: 46px;
+    height: 46px;
+    margin: 0px 10px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+.linkedinBackground:hover, .githubBackground:hover, .instagramBackground:hover, .facebookBackground:hover {
+    width: 50px;
+    height: 50px;
+    margin: 0px 8px;
+}
+.linkedin, .github, .instagram, .facebook {
+    width: 30px;
+    height: 30px;
+}
+.linkedinBackground:hover .linkedin, .githubBackground:hover .github, .instagramBackground:hover .instagram, .facebookBackground:hover .facebook {
+    width: 34px;
+    height: 34px;
+}
+.linkedinBackground:hover, .facebookBackground:hover{
+   background: linear-gradient(180deg, #309afd, #309afd, #044c91, #309afd, #309afd);  
+    background-size: 100% 300%;
+    animation: degrade-animado 1s linear infinite ;
+}
+@keyframes degrade-animado {
+    0% {
+        background-position-y: 0%;
+    }
+    100% {
+        background-position-y: 100%;
+    }
+}
+.githubBackground:hover {
+    background: linear-gradient(180deg, #CAD2C5, #CAD2C5, #8c9189, #CAD2C5, #CAD2C5);  
+     background-size: 100% 300%;
+     animation: degrade-animado 1s linear infinite ;
+ }
+ @keyframes degrade-animado {
+     0% {
+         background-position-y: 0%;
+     }
+     100% {
+         background-position-y: 100%;
+     }
+}
+.instagramBackground:hover {
+    background: linear-gradient(180deg, #ffce01, #ffce01, #ff04b3, #ff04b3, #6c18ff, #ff04b3, #ff04b3, #ffce01, #ffce01, #ff04b3, #ff04b3);  
+     background-size: 100% 300%;
+     animation: degrade-animado 1s linear infinite ;
+ }
+ @keyframes degrade-animado {
+     0% {
+         background-position-y: 0%;
+     }
+     100% {
+         background-position-y: 100%;
+     }
+}

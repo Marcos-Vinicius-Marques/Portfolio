@@ -6,7 +6,7 @@ import heidisql from '../../assets/images/HeidiSQL.png'
 import reactjs from '../../assets/images/reactjs.png'
 
 
-import { Swiper, SwiperProps, SwiperSlide } from 'swiper/react'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper'
 import styles from './slider.module.css'
 
