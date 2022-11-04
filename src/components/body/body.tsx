@@ -1,16 +1,13 @@
 import styles from './stylesbody.module.css'
 
-import { TransitionSquare } from '../transition-square/transition-square'
-import { TransitionRectangle } from '../transition-rectangle/transition-rectangle'
-import { Slider } from '../slider/slider'
+import { TransitionSquare } from '../transition-square/TransitionSquare'
+import { TransitionRectangle } from '../transition-rectangle/TransitionRectangle'
+import { Slider } from '../slider/Slider'
 import github from '../../assets/icons/github3.png'
 
 
+
 export const Body = () => {
-    const settings = {
-        spaceBetween: 50,
-        slidesPerview: 3,
-    }
 
 
     return (
@@ -24,7 +21,7 @@ export const Body = () => {
                     <TransitionSquare />
 
                     <div className={styles.containerSection}>
-                        <section>
+                        <section id='sobre'>
                             <h1>Sobre</h1>
                             <div className={styles.areaAbout}>
                                 <p>
@@ -37,13 +34,13 @@ export const Body = () => {
                                 </p>
                             </div>
                         </section>
-                        <section>
+                        <section id='habilidades'>
                             <h1>Habilidades</h1>
                             <div className={styles.swiperArea}>
                                 <Slider />
                             </div>
                         </section>
-                        <section>
+                        <section id='projetos'>
                             <h1>Projetos</h1>
                             <div className={styles.projectsArea}>
                                 <p>

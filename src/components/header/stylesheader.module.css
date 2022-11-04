@@ -151,9 +151,22 @@ ul {
     display: flex;
     background-color: #242f35;
 }
-ul li {
+ul a {
+    text-decoration: none;
+}
+.liStyle {
     background-color: inherit;
     border-bottom: 6px solid #242f35;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 15px 9px 15px;
+    cursor: pointer;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.active{
+    border-bottom: 6px solid #2387bd;
+    color: #2387bd;
     font-size: 18px;
     font-weight: 600;
     padding: 15px 15px 9px 15px;

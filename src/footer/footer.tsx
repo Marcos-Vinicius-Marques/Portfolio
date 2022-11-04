@@ -8,10 +8,11 @@ import github from '../assets/icons/github3.png'
 import instagram from '../assets/icons/instagram1.png'
 import facebook from '../assets/icons/facebook3.png'
 
+
 export const Footer = () => {
     return (
         <>
-            <footer>
+            <footer id='contato'>
                 <h1>
                     Contato
                 </h1>

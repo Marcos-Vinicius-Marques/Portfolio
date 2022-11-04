@@ -9,8 +9,8 @@
 
 footer {
     background: linear-gradient(to top, #101518, #242f35);
-    height: 385px;
-    padding: 50px 60px;
+    height: 300px;
+    padding: 10px 60px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -28,7 +28,7 @@ footer h1 {
 }
 
 .contactArea .contact {
-    height: 65px;
+    height: 50px;
     display: flex;
     align-items: center;
 }
