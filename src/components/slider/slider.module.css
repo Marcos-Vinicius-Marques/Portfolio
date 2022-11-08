@@ -26,3 +26,42 @@
     height: 110px;
     rotate: -45deg;
 }
+
+@media (max-width: 768px) {
+    .areaIMG {
+        width: 80px;
+        height: 80px;
+    }
+    .areaIMG img {
+        width: 80px;
+        height: 80px;
+    }
+    .areaIMG .backgroundGIT {
+        width: 62px;
+        height: 62px;
+        border-radius: 10px;
+    }
+    .areaIMG .backgroundGIT img {
+        width: 83px;
+        height: 83px;
+    }
+}
+@media (max-width: 425px) {
+    .areaIMG {
+        width: 70px;
+        height: 70px;
+    }
+    .areaIMG img {
+        width: 70px;
+        height: 70px;
+    }
+    .areaIMG .backgroundGIT {
+        width: 52px;
+        height: 52px;
+        border-radius: 5px;
+    }
+    .areaIMG .backgroundGIT img {
+        width: 73px;
+        height: 73px;
+    }
+}

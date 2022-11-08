@@ -1,12 +1,12 @@
 import styles from './stylesfooter.module.css'
 
 
-import carta from '../assets/icons/carta.png'
-import whatsapp from '../assets/icons/whatsapp.png'
-import linkedin from '../assets/icons/linkedin1.png'
-import github from '../assets/icons/github3.png'
-import instagram from '../assets/icons/instagram1.png'
-import facebook from '../assets/icons/facebook3.png'
+import carta from '../../assets/icons/carta.png'
+import whatsapp from '../../assets/icons/whatsapp.png'
+import linkedin from '../../assets/icons/linkedin1.png'
+import github from '../../assets/icons/github3.png'
+import instagram from '../../assets/icons/instagram1.png'
+import facebook from '../../assets/icons/facebook3.png'
 
 
 export const Footer = () => {

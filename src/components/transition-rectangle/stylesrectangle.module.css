@@ -44,7 +44,6 @@
 
 
 .areaTransitionRectangle .areaRight {
- /*   background-color: blueviolet;  */
     flex: 1;
     padding: 20px;
     display: flex;
@@ -78,5 +77,71 @@
     100% {
         top: 0;
         right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    @keyframes positionRotateRight {
+        0% {
+            top:0;
+            left:0;
+        }
+        35% {
+            top:0;
+            left: calc(90% - 50px);
+        }
+        50% {
+            top:calc(100% - 50px);
+            left: calc(90% - 50px);
+        }
+        85% {
+            top:calc(100% - 50px);
+            left: 0;
+        }
+        100% {
+            top: 0;
+            left: 0;
+        }
+    }
+    @keyframes positionRotateLeft {
+        0% {
+            top:0;
+            right:0;
+        }
+        35% {
+            top:0;
+            right: calc(90% - 50px);
+        }
+        50% {
+            top:calc(100% - 50px);
+            right: calc(90% - 50px);
+        }
+        85% {
+            top:calc(100% - 50px);
+            right: 0;
+        }
+        100% {
+            top: 0;
+            right: 0;
+        }
+    }
+    .areaTransitionRectangle {
+        height: 330px;
+    }
+}
+
+@media (max-width: 610px) {
+    .areaTransitionRectangle {
+        height: 370px;
+    }
+}
+@media (max-width: 510px) {
+    .areaTransitionRectangle {
+        height: 436px;
+    }
+}
+@media (max-width: 425px) {
+    .areaTransitionRectangle {
+        height: 370px;
     }
 }

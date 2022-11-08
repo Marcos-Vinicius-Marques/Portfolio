@@ -15,6 +15,9 @@ main .container {
     flex-direction: column;
     row-gap: 35px;
 }
+main .container .modelTablet {
+    width: 100%;
+}
 .containerSection {
     position: absolute;
     max-width: 1050px;
@@ -55,7 +58,6 @@ section p {
 
 
 .sectionSecond .areaSkills {
-    background-color: green;
     width: 460px;
     height: 200px;
     margin-top: 40px;
@@ -68,7 +70,6 @@ section p {
     display: flex;
 }
 .carousel .setLeft, .carousel .setRight {
-    background-color: royalblue;
     height: 200px;
     margin-top: 40px;
     display: flex;
@@ -97,7 +98,6 @@ section p {
 .imgSkills {
     width: 100px;
     height: 106px;
-    background-color: yellow;
 }
 
 .htmlImg {
@@ -156,4 +156,62 @@ section p {
      100% {
          background-position-y: 100%;
      }
+}
+
+
+
+
+
+
+@media (max-width: 1050px) {
+    .containerSection {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    section p {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: initial;
+        word-spacing: 2px;
+        line-height: 27px;
+    }
+    .containerSection section {
+        padding: 30px;
+    }
+    .swiperArea {
+        width: 100%;
+        height: 190px;
+        margin-top: 40px;
+    }
+    .modelTablet {
+        display: none;
+    }
+}
+@media (max-width: 425px) {
+    .container {
+        padding-top: 40px;
+    }
+    section p {
+        font-size: 11px;
+        text-align: initial;
+        word-spacing: 1px;
+        line-height: 20px;
+    }
+    .containerSection section {
+        padding: 30px;
+    }
+    .swiperArea {
+        width: 100%;
+        height: 190px;
+        margin-top: 10px;
+    }
+
+    .linkArea {
+        margin-top: 7px;
+    }
 }
