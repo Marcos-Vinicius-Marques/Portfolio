@@ -23,7 +23,7 @@ export const Slider = () => {
                 modules={[Navigation, Pagination, A11y, Autoplay]}
                 pagination={{ clickable: true }}
                 navigation={true}
-                autoplay={{ delay: 3000, disableOnInteraction:false}}
+                autoplay={{ delay: 3000, disableOnInteraction:false}}  
                 slidesPerView={3}
                 loop={true}
                 >
