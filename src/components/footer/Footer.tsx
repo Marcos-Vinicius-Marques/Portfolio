@@ -18,7 +18,7 @@ export const Footer = () => {
                 </h1>
                 <div className={styles.contactArea}>
                     <div className={styles.contact}>
-                        <a href="https://www.linkedin.com/in/marcos-vin%C3%ADcius-marques-a2b300184/" target="_blank">
+                        <a href="mailto:mviniciusmarquesvk@hotmail.com" target="_blank">
                             <div className={styles.cartaBackground}>
                                 <img className={styles.carta} src={carta} alt="Linkedin" />
                             </div>
@@ -27,7 +27,7 @@ export const Footer = () => {
                         <a href="mailto:mviniciusmarquesvk@hotmail.com" target="_blank" className={styles.fontFooter}>mviniciusmarquesvk@hotmail.com</a>
                     </div>
                     <div className={styles.contact}>
-                        <a href="https://www.linkedin.com/in/marcos-vin%C3%ADcius-marques-a2b300184/" target="_blank">
+                        <a href="https://wa.me/+5522992520776" target="_blank">
                             <div className={styles.whatsappBackground}>
                                 <img className={styles.whatsapp} src={whatsapp} alt="Linkedin" />
                             </div>

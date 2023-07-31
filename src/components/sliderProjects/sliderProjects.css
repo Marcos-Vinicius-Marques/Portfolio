@@ -1,0 +1,20 @@
+.SwiperProjects {
+    height: 100%;
+}
+
+.SwiperSlideProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swiper-pagination-bullet {
+    background-color: #FFF !important;
+}
+.swiper-button-prev {
+    color: #CAD2C5 !important;
+}
+.swiper-button-next {
+    color: #CAD2C5 !important;
+}
