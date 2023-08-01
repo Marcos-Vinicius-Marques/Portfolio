@@ -48,7 +48,7 @@ export const Header = () => {
 
   const [colorHabilidades, setColorHabilidades] = useState(false)
   const changeColorHabilidades = () => {
-    if (window.scrollY >= 821 && window.scrollY <= 1130) {
+    if (window.scrollY >= 821 && window.scrollY <= 1450) {
       setColorHabilidades(true)
     } else {
       setColorHabilidades(false)
@@ -58,7 +58,7 @@ export const Header = () => {
 
   const [colorProjetos, setColorProjetos] = useState(false)
   const changeColorProjetos = () => {
-    if (window.scrollY >= 1131 && window.scrollY <= 1550) {
+    if (window.scrollY >= 1451 && window.scrollY <= 1900) {
       setColorProjetos(true)
     } else {
       setColorProjetos(false)
@@ -68,7 +68,7 @@ export const Header = () => {
 
   const [colorContato, setColorContato] = useState(false)
   const changeColorContato = () => {
-    if (window.scrollY >= 1551 && window.scrollY <= 1900) {
+    if (window.scrollY >= 1901 && window.scrollY <= 2400) {
       setColorContato(true)
     } else {
       setColorContato(false)
@@ -89,7 +89,7 @@ export const Header = () => {
           <div className={styles.headerName}>
             <div className={styles.spacingName}>
               <span className={styles.styleWords}>Marcos </span>
-              <span className={styles.styleWords}>Vinicius </span>
+              <span className={styles.styleWords}>Vinícius </span>
               <span className={styles.styleWords}>Oliveira  </span>
               <span className={styles.styleWords}>Marques</span>
             </div>
@@ -130,8 +130,10 @@ export const Header = () => {
                   offset={-90}
                   duration={1000}
                 >
+
                     <li className={colorHome ? styles.active : styles.liStyle}>HOME</li>
                 </Scroll>
+
                 <Scroll
                   to="sobre"
                   spy={true}
@@ -141,15 +143,17 @@ export const Header = () => {
                 >
                     <li className={colorSobre ? styles.active : styles.liStyle}>SOBRE</li>
                 </Scroll>
+
                 <Scroll
                   to="habilidades"
                   spy={true}
                   smooth={true}
-                  offset={-90}
+                  offset={-200}
                   duration={1000}
                 >
                     <li className={colorHabilidades ? styles.active : styles.liStyle}>HABILIDADES</li>
                 </Scroll>
+
                 <Scroll
                   to="projetos"
                   spy={true}
@@ -159,6 +163,7 @@ export const Header = () => {
                 >
                     <li className={colorProjetos ? styles.active : styles.liStyle}>PROJETOS</li>
                 </Scroll>
+
                 <Scroll
                   to="contato"
                   spy={true}
@@ -168,6 +173,7 @@ export const Header = () => {
                 >
                     <li className={colorContato ? styles.active : styles.liStyle}>CONTATO</li>
                 </Scroll>
+                
               </ul>
             </nav>
           </div>

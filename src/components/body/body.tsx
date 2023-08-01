@@ -5,11 +5,11 @@ import { TransitionRectangle } from '../transition-rectangle/TransitionRectangle
 import { Slider } from '../slider/Slider'
 import { SliderProjects } from '../sliderProjects/SliderProjects'
 import github from '../../assets/icons/github3.png'
+import marcos from '../../assets/documents/CVMarcosViniciusOliveiraMarques.pdf'
 
 
 
 export const Body = () => {
-
 
     return (
         <>
@@ -22,8 +22,10 @@ export const Body = () => {
                     <div className={styles.modelTablet}>
                         <TransitionSquare />
                     </div>
+                    <TransitionRectangle />
 
                     <div className={styles.containerSection}>
+
                         <section id='sobre'>
                             <h1>Sobre</h1>
                             <p>
@@ -33,24 +35,27 @@ export const Body = () => {
                                 Me sinto muito entusiasmado a cada dia que se passa conhecendo o mundo do desenvolvimento web, principalmente
                                 na área do Front-end. Estou totalmente disposto a aprender novas tecnologias dependendo da necessidade
                                 do trabalho.
-                                <button>
-                                    Currículo
-                                </button>
+                                <a href={marcos} target="_blank" rel="noopener noreferrer">
+                                    <button>
+                                        Currículo
+                                    </button>
+                                </a>
                             </p>
                         </section>
+
                         <section id='habilidades'>
                             <h1>Habilidades</h1>
                             <div className={styles.swiperArea}>
                                 <Slider />
                             </div>
                         </section>
+
                         <section id='projetos'>
                             <h1>Projetos</h1>
+                            <div className={styles.swiperAreaProjects}>
+                                <SliderProjects />
+                            </div>
                             <div className={styles.projectsArea}>
-                                <div className={styles.swiperArea}>
-                                    <SliderProjects />
-                                </div>
-                                
                                 <p>
                                     Todos os meus projetos atuais podem ser encontrados no meu perfil do GitHub: <br />
                                     <div className={styles.linkArea}>
@@ -68,6 +73,7 @@ export const Body = () => {
                                 </p>
                             </div>
                         </section>
+
                     </div>
                 </div>
             </main>

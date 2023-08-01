@@ -2,13 +2,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: #CAD2C5;
+    color: #000;
     font-family: 'Montserrat', sans-serif;
 }
 
 
 footer {
-    background: linear-gradient(to top, #101518, #242f35);
+    background: linear-gradient(to top, #4a4f52, #94958B);
     height: 300px;
     padding: 10px 60px;
     display: flex;
@@ -100,7 +100,7 @@ footer h1 {
     height: 1px;
     width: 90%;
     border-radius: 1px;
-    background-color: #CAD2C5;
+    background-color: #000;
     margin-top: 15px ;
 }
 

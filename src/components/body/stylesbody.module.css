@@ -2,13 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: #CAD2C5;
     font-family: 'Montserrat', sans-serif;
 }
 
-main {
-    background-color: #171e22;
-}
+
 main .container {
     display: flex;
     align-items: center;
@@ -24,17 +21,7 @@ main .container .modelTablet {
     width: 1050px;
 }
 .containerSection section {
-    background-color: #2F3E46;
-    width: 100%;
-    padding: 50px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 34px 0px;
-    border-radius: 60px;
-}
-.containerSection section {
-    background-color: #2F3E46;
+    background-color: #b0b1a8;
     width: 100%;
     padding: 50px 10px;
     display: flex;
@@ -51,13 +38,13 @@ main .container .modelTablet {
     padding: 6px 18px;
     border-radius: 10px;
     cursor: pointer;
-    border: 2px solid #2387bd;
+    border: 2px solid #011b91;
     transition: all .5s ease 0s;
     font-weight: bold;
 }
 .containerSection section p button:hover {
-    background-color: #2387bd;
-    color: #000;
+    background-color: #011b91;
+    color: #FFF;
 }
 
 
@@ -77,7 +64,7 @@ section p {
     text-align: center;
     word-spacing: 4px;
     line-height: 30px;
-    border: 1px solid #71746f;
+    border: 1px solid #011b91;
     padding: 30px;
     border-radius: 50px;
     display: flex;
@@ -141,6 +128,14 @@ section p {
     margin-top: 60px;
     width: 650px;
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiperAreaProjects {
+    margin-top: 60px;
+    width: 650px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -216,6 +211,10 @@ section p {
         width: 100%;
         height: 190px;
         margin-top: 40px;
+    }
+    .swiperAreaProjects{
+        width: 100%;
+        height: 190px;
     }
     .modelTablet {
         display: none;

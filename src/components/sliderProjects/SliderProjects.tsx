@@ -1,5 +1,4 @@
-import html from '../../assets/images/html.png'
-import css from '../../assets/images/css.png'
+import mistym from '../../assets/images/mistym.png'
 
 
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -20,21 +19,25 @@ export const SliderProjects = () => {
                 pagination={{ clickable: true }}
                 navigation={true}
                 autoplay={{ delay: 3000, disableOnInteraction:false}}  
-                slidesPerView={2}
+                slidesPerView={1}
                 loop={true}
                 >
+
                 <SwiperSlide className='SwiperSlideProjects'>
                     <div className={styles.areaIMG}>
-                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
-                            <img src={html} alt="HTML" />
+                        <a href="https://mistym.com.br/" target="_blank">
+                            <img src={mistym} alt="mistym.com.br" />
                         </a>
+                        <h3>Mistym</h3>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide className='SwiperSlideProjects'>
                     <div className={styles.areaIMG}>
                         <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
-                            <img src={css} alt="CSS" />
+                            <img src={mistym} alt="CSS" />
                         </a>
+                        <h3>Advogado Christino Moreira</h3>
                     </div>
                 </SwiperSlide>
             </Swiper>

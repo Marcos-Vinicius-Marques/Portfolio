@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(to bottom, #101518, #242f35);
+    background: linear-gradient(to bottom, #4a4f52, #94958B);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,11 +36,11 @@
 
 }
 .styleWords {
-    transition: all 3s ease 0s;
+    transition: all 1s ease 0s;
 }
 .styleWords:hover {
-    color: #2387bd;
-    font-size: 30px;
+    color: #011b91;
+    font-size: 30px;    
 }
 
 
@@ -124,17 +124,17 @@
 .header .headerBottom {
     width: 100%;
     text-align: center;
-    border-top: 1px solid #2f3e46;
-    border-bottom: 1px solid #2f3e46;
+    border-top: 1px solid #4a4f52;
+    border-bottom: 1px solid #4a4f52;
 }
 .menuFixedFalse {
-    background-color: #242f35;
+    background-color: #94958B;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .menuFixedTrue {
-    background-color: #242f35;
+    background-color: #94958B;
     width: 100%;
     display: flex;
     position: fixed;
@@ -143,19 +143,18 @@
     top: 0;
     left: 0;
     right: 0;
-
+    border-bottom: 1px solid #4a4f52;
 }
 ul {
     list-style: none;
     display: flex;
-    background-color: #242f35;
 }
 ul a {
     text-decoration: none;
 }
 .liStyle {
     background-color: inherit;
-    border-bottom: 6px solid #242f35;
+    border-bottom: 6px solid #94958B;
     font-size: 18px;
     font-weight: 600;
     padding: 15px 15px 9px 15px;
@@ -164,8 +163,8 @@ ul a {
     text-transform: uppercase;
 }
 .active{
-    border-bottom: 6px solid #2387bd;
-    color: #2387bd;
+    border-bottom: 6px solid #011b91;
+    color: #011b91;
     font-size: 18px;
     font-weight: 600;
     padding: 15px 15px 9px 15px;
@@ -174,8 +173,8 @@ ul a {
     text-transform: uppercase;
 }
 ul li:hover {
-    border-bottom: 6px solid #2387bd;
-    color: #2387bd;
+    border-bottom: 6px solid #011b91;
+    color: #011b91;
 }
 
 
@@ -191,7 +190,7 @@ ul li:hover {
         font-size: 20px;
     }
     .styleWords:hover {
-        color: #2387bd;
+        color: #011b91;
         font-size: 23px;
         transition: all 0.4s ease 0s;
     }
@@ -227,7 +226,7 @@ ul li:hover {
         font-size: 16px;
     }
     .styleWords:hover {
-        color: #2387bd;
+        color: #011b91;
         font-size: 17px;
         transition: all 0.4s ease 0s;
     }

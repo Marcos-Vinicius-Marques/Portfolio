@@ -1,67 +1,31 @@
 .areaIMG {
-    width: 110px;
-    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.areaIMG h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .areaIMG img {
-    width: 110px;
-    height: 110px;
+    width: 250px;
+    margin: 0px 20px;
 }
 
 
-.areaIMG .backgroundGIT {
-    background-color: #e84d31;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 83px;
-    height: 83px;
-    border-radius: 15px;
-    rotate: 45deg;
-}
-.areaIMG .backgroundGIT img {
-    width: 110px;
-    height: 110px;
-    rotate: -45deg;
-}
 
 @media (max-width: 768px) {
-    .areaIMG {
-        width: 80px;
-        height: 80px;
-    }
+    
     .areaIMG img {
-        width: 80px;
-        height: 80px;
-    }
-    .areaIMG .backgroundGIT {
-        width: 62px;
-        height: 62px;
-        border-radius: 10px;
-    }
-    .areaIMG .backgroundGIT img {
-        width: 83px;
-        height: 83px;
+        width: 200px;
     }
 }
 @media (max-width: 425px) {
     .areaIMG {
         width: 70px;
-        height: 70px;
     }
     .areaIMG img {
-        width: 70px;
-        height: 70px;
-    }
-    .areaIMG .backgroundGIT {
-        width: 56px;
-        height: 56px;
-        border-radius: 8px;
-    }
-    .areaIMG .backgroundGIT img {
-        width: 76px;
-        height: 76px;
+        width: 150px;
     }
 }
