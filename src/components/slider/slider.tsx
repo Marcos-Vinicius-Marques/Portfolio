@@ -4,7 +4,7 @@ import js from '../../assets/images/js.png'
 import git from '../../assets/images/git.png'
 import heidisql from '../../assets/images/HeidiSQL.png'
 import reactjs from '../../assets/images/reactjs.png'
-
+import firebase from '../../assets/images/firebase.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper'
@@ -27,6 +27,7 @@ export const Slider = () => {
                 slidesPerView={3}
                 loop={true}
                 >
+
                 <SwiperSlide className='SwiperSlide'>
                     <div className={styles.areaIMG}>
                         <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
@@ -34,6 +35,7 @@ export const Slider = () => {
                         </a>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide className='SwiperSlide'>
                     <div className={styles.areaIMG}>
                         <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
@@ -41,6 +43,7 @@ export const Slider = () => {
                         </a>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide className='SwiperSlide'>
                     <div className={styles.areaIMG}>
                         <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
@@ -48,6 +51,7 @@ export const Slider = () => {
                         </a>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide className='SwiperSlide'>
                     <div className={styles.areaIMG}>
                         <div className={styles.backgroundGIT}>
@@ -57,6 +61,7 @@ export const Slider = () => {
                         </div>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide className='SwiperSlide'>
                     <div className={styles.areaIMG}>
                         <a href="https://www.heidisql.com/download.php" target="_blank">
@@ -64,6 +69,7 @@ export const Slider = () => {
                         </a>
                     </div>
                 </SwiperSlide>
+
                 <SwiperSlide className='SwiperSlide'>
                     <div className={styles.areaIMG}>
                         <a href="https://pt-br.reactjs.org/" target="_blank">
@@ -71,6 +77,15 @@ export const Slider = () => {
                         </a>
                     </div>
                 </SwiperSlide>
+
+                <SwiperSlide className='SwiperSlide'>
+                    <div className={styles.areaIMG}>
+                        <a href="https://firebase.google.com/?hl=pt-br" target="_blank">
+                            <img src={firebase} alt="Firebase" />
+                        </a>
+                    </div>
+                </SwiperSlide>
+
             </Swiper>
         </>
     )

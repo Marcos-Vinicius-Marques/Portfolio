@@ -1,5 +1,5 @@
 import mistym from '../../assets/images/mistym.png'
-
+import advogado from '../../assets/images/advocaciamoreiraneto.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper'
@@ -34,8 +34,8 @@ export const SliderProjects = () => {
 
                 <SwiperSlide className='SwiperSlideProjects'>
                     <div className={styles.areaIMG}>
-                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
-                            <img src={mistym} alt="CSS" />
+                        <a href="https://advocaciamoreiraneto.com.br/" target="_blank">
+                            <img src={advogado} alt="advocaciamoreiraneto.com.br" />
                         </a>
                         <h3>Advogado Christino Moreira</h3>
                     </div>

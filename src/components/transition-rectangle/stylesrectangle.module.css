@@ -126,22 +126,22 @@
         }
     }
     .areaTransitionRectangle {
-        height: 330px;
+        height: 320px;
     }
 }
 
 @media (max-width: 610px) {
     .areaTransitionRectangle {
-        height: 370px;
+        height: 340px;
     }
 }
 @media (max-width: 510px) {
     .areaTransitionRectangle {
-        height: 436px;
+        height: 390px;
     }
 }
 @media (max-width: 425px) {
     .areaTransitionRectangle {
-        height: 370px;
+        height: 330px;
     }
 }

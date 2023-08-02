@@ -117,7 +117,7 @@ export const Header = () => {
                 </div>
               </a>
             </nav>
-          </div>
+          </div>  
         </div>
         <div className={styles.headerBottom}>
           <div className={menuFixed ? styles.menuFixedTrue : styles.menuFixedFalse}>

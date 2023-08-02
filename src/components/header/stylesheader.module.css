@@ -3,26 +3,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     padding-top: 40px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .headerTop {
     background-color: inherit;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 .header .image {
     width: 250px;
     height: 250px;
     border-radius: 125px;
 }
+
 .header .image img {
     width: inherit;
     height: inherit;
     border-radius: inherit;
 }
+
 .header .headerName {
     width: 600px;
     height: 70px;
@@ -35,12 +39,14 @@
     font-weight: bold;
 
 }
+
 .styleWords {
     transition: all 1s ease 0s;
 }
+
 .styleWords:hover {
     color: #011b91;
-    font-size: 30px;    
+    font-size: 30px;
 }
 
 
@@ -54,6 +60,7 @@
     justify-content: center;
     margin-bottom: 30px;
 }
+
 .linkedinBackground, .githubBackground, .instagramBackground, .facebookBackground {
     display: flex;
     justify-content: center;
@@ -65,57 +72,69 @@
     border-radius: 23px;
     cursor: pointer;
 }
+
 .linkedinBackground:hover, .githubBackground:hover, .instagramBackground:hover, .facebookBackground:hover {
     width: 50px;
     height: 50px;
     margin: 0px 8px;
 }
+
 .linkedin, .github, .instagram, .facebook {
     width: 30px;
     height: 30px;
 }
+
 .linkedinBackground:hover .linkedin, .githubBackground:hover .github, .instagramBackground:hover .instagram, .facebookBackground:hover .facebook {
     width: 34px;
     height: 34px;
 }
-.linkedinBackground:hover, .facebookBackground:hover{
-   background: linear-gradient(180deg, #309afd, #309afd, #044c91, #309afd, #309afd);  
+
+.linkedinBackground:hover, .facebookBackground:hover {
+    background: linear-gradient(180deg, #309afd, #309afd, #044c91, #309afd, #309afd);
     background-size: 100% 300%;
-    animation: degrade-animado 1s linear infinite ;
+    animation: degrade-animado 1s linear infinite;
 }
+
 @keyframes degrade-animado {
     0% {
         background-position-y: 0%;
     }
+
     100% {
         background-position-y: 100%;
     }
 }
+
 .githubBackground:hover {
-    background: linear-gradient(180deg, #CAD2C5, #CAD2C5, #8c9189, #CAD2C5, #CAD2C5);  
-     background-size: 100% 300%;
-     animation: degrade-animado 1s linear infinite ;
- }
- @keyframes degrade-animado {
-     0% {
-         background-position-y: 0%;
-     }
-     100% {
-         background-position-y: 100%;
-     }
+    background: linear-gradient(180deg, #CAD2C5, #CAD2C5, #8c9189, #CAD2C5, #CAD2C5);
+    background-size: 100% 300%;
+    animation: degrade-animado 1s linear infinite;
 }
+
+@keyframes degrade-animado {
+    0% {
+        background-position-y: 0%;
+    }
+
+    100% {
+        background-position-y: 100%;
+    }
+}
+
 .instagramBackground:hover {
-    background: linear-gradient(180deg, #ffce01, #ffce01, #ff04b3, #ff04b3, #6c18ff, #ff04b3, #ff04b3, #ffce01, #ffce01, #ff04b3, #ff04b3);  
-     background-size: 100% 300%;
-     animation: degrade-animado 1s linear infinite ;
- }
- @keyframes degrade-animado {
-     0% {
-         background-position-y: 0%;
-     }
-     100% {
-         background-position-y: 100%;
-     }
+    background: linear-gradient(180deg, #ffce01, #ffce01, #ff04b3, #ff04b3, #6c18ff, #ff04b3, #ff04b3, #ffce01, #ffce01, #ff04b3, #ff04b3);
+    background-size: 100% 300%;
+    animation: degrade-animado 1s linear infinite;
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-y: 0%;
+    }
+
+    100% {
+        background-position-y: 100%;
+    }
 }
 
 
@@ -127,12 +146,14 @@
     border-top: 1px solid #4a4f52;
     border-bottom: 1px solid #4a4f52;
 }
+
 .menuFixedFalse {
     background-color: #94958B;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .menuFixedTrue {
     background-color: #94958B;
     width: 100%;
@@ -145,13 +166,16 @@
     right: 0;
     border-bottom: 1px solid #4a4f52;
 }
+
 ul {
     list-style: none;
     display: flex;
 }
+
 ul a {
     text-decoration: none;
 }
+
 .liStyle {
     background-color: inherit;
     border-bottom: 6px solid #94958B;
@@ -162,7 +186,8 @@ ul a {
     margin-left: 15px;
     text-transform: uppercase;
 }
-.active{
+
+.active {
     border-bottom: 6px solid #011b91;
     color: #011b91;
     font-size: 18px;
@@ -172,6 +197,7 @@ ul a {
     margin-left: 15px;
     text-transform: uppercase;
 }
+
 ul li:hover {
     border-bottom: 6px solid #011b91;
     color: #011b91;
@@ -189,6 +215,7 @@ ul li:hover {
         width: 420px;
         font-size: 20px;
     }
+
     .styleWords:hover {
         color: #011b91;
         font-size: 23px;
@@ -199,32 +226,41 @@ ul li:hover {
 
 
     .liStyle {
+        border-bottom: 3px solid #94958B;
         font-size: 12px;
         font-weight: 600;
         padding: 15px 8px;
         margin-left: 0px;
     }
+
     .active {
-    color: #CAD2C5;
-    border-bottom: 6px solid #242f35;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 15px 8px;
-    margin-left: 0px;
+        color: #011b91;
+        border-bottom: 3px solid #011b91;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 15px 8px;
+        margin-left: 0px;
     }
 
+    ul li:hover {
+        border-bottom: 3px solid #011b91;
+        color: #011b91;
+    }
 
 }
+
 @media (max-width: 425px) {
     .header {
         height: 100vh;
     }
+
     .header .headerName {
         margin-top: 30%;
         margin-bottom: 30%;
         width: 296px;
         font-size: 16px;
     }
+
     .styleWords:hover {
         color: #011b91;
         font-size: 17px;
@@ -236,8 +272,9 @@ ul li:hover {
         font-weight: 600;
         padding: 10px 8px;
     }
+
     .active {
         font-size: 9px;
         padding: 10px 8px;
-        }
+    }
 }
