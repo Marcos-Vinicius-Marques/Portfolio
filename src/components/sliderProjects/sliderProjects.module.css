@@ -28,4 +28,8 @@
     .areaIMG img {
         width: 150px;
     }
+    .areaIMG h3{
+        font-size: 14px;
+        text-align: center;
+    }
 }
