@@ -37,7 +37,7 @@ export const SliderProjects = () => {
                         <a href="https://advocaciamoreiraneto.com.br/" target="_blank">
                             <img src={advogado} alt="advocaciamoreiraneto.com.br" />
                         </a>
-                        <h3>Advogado Christino Moreira</h3>
+                        <h3>Advocacia Moreira Neto</h3>
                     </div>
                 </SwiperSlide>
             </Swiper>

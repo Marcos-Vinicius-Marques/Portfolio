@@ -142,6 +142,11 @@
 }
 @media (max-width: 425px) {
     .areaTransitionRectangle {
-        height: 330px;
+        height: 285px;
+    }
+}
+@media (max-width: 375px) {
+    .areaTransitionRectangle {
+        height: 320px;
     }
 }

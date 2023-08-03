@@ -12,14 +12,17 @@ main .container {
     flex-direction: column;
     row-gap: 35px;
 }
+
 main .container .modelTablet {
     width: 100%;
 }
+
 .containerSection {
     position: absolute;
     max-width: 1050px;
     width: 1050px;
 }
+
 .containerSection section {
     background-color: #b0b1a8;
     width: 100%;
@@ -30,6 +33,7 @@ main .container .modelTablet {
     margin: 34px 0px;
     border-radius: 60px;
 }
+
 .containerSection section p button {
     background-color: rgba(255, 255, 255, 0);
     font-size: 20px;
@@ -42,6 +46,7 @@ main .container .modelTablet {
     transition: all .5s ease 0s;
     font-weight: bold;
 }
+
 .containerSection section p button:hover {
     background-color: #011b91;
     color: #FFF;
@@ -68,7 +73,7 @@ section p {
     padding: 30px;
     border-radius: 50px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
 }
 
@@ -82,22 +87,26 @@ section p {
     justify-content: center;
     align-items: center;
 }
+
 .carousel {
     display: flex;
 }
+
 .carousel .setLeft, .carousel .setRight {
     height: 200px;
     margin-top: 40px;
     display: flex;
     align-items: center;
 }
-.carousel .setLeft img{
+
+.carousel .setLeft img {
     width: 40px;
     height: 40px;
     rotate: 180deg;
     cursor: pointer;
 }
-.carousel .setRight img{
+
+.carousel .setRight img {
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -111,6 +120,7 @@ section p {
     align-items: center;
     column-gap: 45px;
 }
+
 .imgSkills {
     width: 100px;
     height: 106px;
@@ -120,7 +130,7 @@ section p {
     width: 100px;
     margin-top: -15px;
     margin-left: -15px;
-    
+
 }
 
 
@@ -132,6 +142,7 @@ section p {
     align-items: center;
     justify-content: center;
 }
+
 .swiperAreaProjects {
     margin-top: 60px;
     width: 650px;
@@ -148,11 +159,13 @@ section p {
 .projectsArea {
     margin-top: 20px;
 }
+
 .linkArea {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .githubBackground {
     display: flex;
     justify-content: center;
@@ -164,22 +177,26 @@ section p {
     border-radius: 23px;
     cursor: pointer;
 }
+
 .github {
     width: 30px;
     height: 30px;
 }
+
 .githubBackground:hover {
-    background: linear-gradient(180deg, #CAD2C5, #CAD2C5, #8c9189, #CAD2C5, #CAD2C5);  
-     background-size: 100% 300%;
-     animation: degrade-animado 1s linear infinite ;
- }
- @keyframes degrade-animado {
-     0% {
-         background-position-y: 0%;
-     }
-     100% {
-         background-position-y: 100%;
-     }
+    background: linear-gradient(180deg, #CAD2C5, #CAD2C5, #8c9189, #CAD2C5, #CAD2C5);
+    background-size: 100% 300%;
+    animation: degrade-animado 1s linear infinite;
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-y: 0%;
+    }
+
+    100% {
+        background-position-y: 100%;
+    }
 }
 
 
@@ -192,10 +209,12 @@ section p {
         width: 100%;
     }
 }
+
 @media (max-width: 768px) {
     h1 {
         font-size: 30px;
     }
+
     section p {
         width: 100%;
         margin-top: 20px;
@@ -204,35 +223,51 @@ section p {
         word-spacing: 2px;
         line-height: 27px;
     }
+
     .containerSection section {
         padding: 30px;
     }
+
     .swiperArea {
         width: 100%;
         height: 190px;
         margin-top: 40px;
     }
-    .swiperAreaProjects{
+
+    .swiperAreaProjects {
         width: 100%;
         height: 190px;
     }
+
     .modelTablet {
         display: none;
     }
 }
+
 @media (max-width: 425px) {
     .container {
         padding-top: 40px;
     }
+
     section p {
         font-size: 11px;
         text-align: initial;
         word-spacing: 1px;
         line-height: 20px;
     }
+
+    .containerSection section p button {
+        font-size: 14px;
+        width: 120px;
+        margin-top: 10px;
+        padding: 4px 14px;
+        border-radius: 7px;
+    }
+
     .containerSection section {
         padding: 30px;
     }
+
     .swiperArea {
         width: 100%;
         height: 190px;

@@ -255,7 +255,7 @@ ul li:hover {
     }
 
     .header .headerName {
-        margin-top: 30%;
+        margin-top: 40px;
         margin-bottom: 30%;
         width: 296px;
         font-size: 16px;
@@ -265,6 +265,11 @@ ul li:hover {
         color: #011b91;
         font-size: 17px;
         transition: all 0.4s ease 0s;
+    }
+
+    .mainsNetworks nav{
+        margin-top: -35px;
+        margin-bottom: 10px;
     }
 
     .liStyle {
