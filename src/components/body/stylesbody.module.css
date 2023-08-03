@@ -251,7 +251,9 @@ section p {
 
     section p {
         font-size: 11px;
-        text-align: initial;
+        padding: 20px;
+        border-radius: 35px;
+        text-align: center;
         word-spacing: 1px;
         line-height: 20px;
     }
