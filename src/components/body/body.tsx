@@ -5,7 +5,7 @@ import { TransitionRectangle } from '../transition-rectangle/TransitionRectangle
 import { Slider } from '../slider/Slider'
 import { SliderProjects } from '../sliderProjects/SliderProjects'
 import github from '../../assets/icons/github3.png'
-import marcos from '../../assets/documents/CVMarcosViniciusOliveiraMarques.pdf'
+import marcos from '../../assets/documents/CVMarcosViníciusOliveiraMarques.pdf'
 
 
 
